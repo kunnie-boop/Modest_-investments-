@@ -1,0 +1,7 @@
+{
+  "name": "Modesta Investments — AI Store Assistant",
+  "description": "Bilingual Swahili & English AI customer service and sales assistant for Modesta Investments in Tanzania. Instant catalog lookup, estimated basket totals, safety checks, and WhatsApp order requests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

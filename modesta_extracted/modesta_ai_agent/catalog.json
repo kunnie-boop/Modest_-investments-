@@ -1,0 +1,204 @@
+{
+  "store": {
+    "name": "MODESTA INVESTMENTS",
+    "tagline": "Modesta kwa kila mahitaji yako",
+    "language": [
+      "Kiswahili",
+      "English"
+    ],
+    "phone_whatsapp": "+255759755280",
+    "payment": {
+      "mobile_money": "Lipak Vodacom (Lipa Namba): 51102080",
+      "account_name": "MODESTA INVESTMENTS"
+    },
+    "delivery": "Delivery is advertised. Confirm the customer's location, delivery fee, and delivery time with the store before promising.",
+    "location_note": "Poster mentions Mbweni, Ubungo; confirm the exact delivery coverage with the store."
+  },
+  "packages": [
+    {
+      "id": "breakfast",
+      "name_sw": "Kifurushi cha Alfajiri",
+      "name_en": "Breakfast Package",
+      "description": "Breakfast and daily staple foods",
+      "items": [
+        {
+          "name": "Supa Loaf (sliced)",
+          "price_tzs": 3500
+        },
+        {
+          "name": "ASAS Milk 500ml",
+          "price_tzs": 2000
+        },
+        {
+          "name": "ASAS Milk 1 litre",
+          "price_tzs": 4500
+        },
+        {
+          "name": "Mayai / Eggs, tray of 30",
+          "price_tzs": 10000
+        },
+        {
+          "name": "Blue Band Original",
+          "price_tzs": 12000
+        },
+        {
+          "name": "Veo Peanut Butter",
+          "price_tzs": 7000
+        },
+        {
+          "name": "Beef Viennas, pack of 12",
+          "price_tzs": 10000
+        }
+      ]
+    },
+    {
+      "id": "daily_cooking",
+      "name_sw": "Kifurushi cha Jiko na Chakula",
+      "name_en": "Kitchen & Cooking Package",
+      "description": "Essential ingredients for daily home cooking",
+      "items": [
+        {
+          "name": "Mchele Safi 5kg",
+          "price_tzs": 17500
+        },
+        {
+          "name": "Unga wa Mahindi 5kg",
+          "price_tzs": 7000
+        },
+        {
+          "name": "Unga wa Ngano (Soko) 1kg",
+          "price_tzs": 3000
+        },
+        {
+          "name": "Mafuta ya Kupikia 5L",
+          "price_tzs": 35000
+        },
+        {
+          "name": "Maji ya Kunywa 15L",
+          "price_tzs": 7000
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "name_sw": "Kifurushi cha Nishati",
+      "name_en": "Energy & Lighting Package",
+      "items": [
+        {
+          "name": "Gas refill (O-Gas/Oryx/Yang) 6kg",
+          "price_tzs": 27000
+        },
+        {
+          "name": "Gas refill (Oryx/O-Gas) 13kg",
+          "price_tzs": 45000
+        },
+        {
+          "name": "Gas refill 29kg",
+          "price_tzs": 62000
+        },
+        {
+          "name": "Double-burner gas stove",
+          "price_tzs": 85000
+        },
+        {
+          "name": "Rechargeable emergency lantern",
+          "price_tzs": 20000
+        }
+      ]
+    },
+    {
+      "id": "baby",
+      "name_sw": "Kifurushi cha Mtoto",
+      "name_en": "Baby Care Package",
+      "items": [
+        {
+          "name": "Maziwa ya mtoto (NAN shown on poster)",
+          "price_tzs": 35000
+        },
+        {
+          "name": "Diapers (Pampers)",
+          "price_tzs": 15000
+        },
+        {
+          "name": "Baby lotion",
+          "price_tzs": 8000
+        },
+        {
+          "name": "Baby oil",
+          "price_tzs": 12000
+        },
+        {
+          "name": "Baby wipes",
+          "price_tzs": 3500
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name_sw": "Kifurushi cha Urembo",
+      "name_en": "Beauty Package",
+      "items": [
+        {
+          "name": "Perfume (CK One)",
+          "price_tzs": 25000
+        },
+        {
+          "name": "Body lotion",
+          "price_tzs": 17000
+        },
+        {
+          "name": "Shampoo",
+          "price_tzs": 12000
+        },
+        {
+          "name": "Deodorant spray",
+          "price_tzs": 6000
+        },
+        {
+          "name": "Toothpaste",
+          "price_tzs": 6000
+        },
+        {
+          "name": "Bar soap (Lux)",
+          "price_tzs": 3000
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name_sw": "Kifurushi cha Usafi na Nyumbani",
+      "name_en": "Cleaning & Home Package",
+      "items": [
+        {
+          "name": "Laundry soap",
+          "price_tzs": 10000
+        },
+        {
+          "name": "Pads",
+          "price_tzs": 4000
+        },
+        {
+          "name": "Bathing soap",
+          "price_tzs": 4000
+        },
+        {
+          "name": "Plastic bucket",
+          "price_tzs": 6000
+        },
+        {
+          "name": "Cleaning brush",
+          "price_tzs": 1500
+        }
+      ]
+    }
+  ],
+  "rules": [
+    "Prices are transcribed from the supplied poster and must be confirmed before payment.",
+    "Do not claim stock availability unless a staff member or inventory system confirms it.",
+    "Do not invent delivery fees, delivery times, discounts, or a total package price.",
+    "Calculate totals only from listed item prices and quantities; label them as estimated until confirmed.",
+    "For gas, infant formula, and other safety-sensitive products, confirm exact brand, size, compatibility, and availability with staff.",
+    "Never ask customers to send PINs, passwords, or one-time passwords.",
+    "Escalate complaints, refunds, unusual requests, payment disputes, and unclear prices to a human staff member."
+  ]
+}
