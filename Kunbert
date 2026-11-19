@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modesta Investments Assistant</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; margin-bottom: 10px; }
+        input { width: 80%; padding: 10px; }
+        button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Modesta Investments</h1>
+    <div id="chat"></div>
+    <input type="text" id="userInput" placeholder="Ask something...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        const API_URL = 'https://kunbert.vercel.app';
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const chat = document.getElementById('chat');
+            const message = input.value;
+            if (!message) return;
+
+            chat.innerHTML += `<div><b>You:</b> ${message}</div>`;
+            input.value = '';
+
+            try {
+                const response = await fetch(`${API_URL}/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+                const data = await response.json();
+                chat.innerHTML += `<div><b>Assistant:</b> ${data.reply || 'No response'}</div>`;
+            } catch (error) {
+                chat.innerHTML += `<div><b>Error:</b> Could not connect to assistant.</div>`;
+            }
+        }
+    </script>
+</body>
+</html>
